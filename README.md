@@ -1,4 +1,4 @@
-# Final_project_GM
+# Demand Forecasting Using ARIMA/SARIMAX Time Series Models
 
 # Goal
 Create most accurate product demand forecasting model to optimize inventory level aiming to reduce stockouts and holding costs 
@@ -29,12 +29,12 @@ The result calculation for Sarimax is similar to ARIMA, except that there is a n
 
 *  Despite positive performance, the models gave accurate results for only 30% of the products.
 
-** Hyperparameters tuning required big amount of time. 
-** ARIMA [580 items] : Elapsed time: 5 hours 
-** SARIMAX  [180 items] : Elapsed time: 57 hours
+*  Hyperparameters tuning required big amount of time. 
+1.  ARIMA [580 items] : Elapsed time: 5 hours 
+2.  SARIMAX  [180 items] : Elapsed time: 57 hours
 
 # Future Goals
-** Implementation of Models on the Provided Time Series Dataset
+* Implementation of Models on the Provided Time Series Dataset
 
 1.  Random Forest Model
 2.  XGBoost Model
@@ -43,8 +43,11 @@ The result calculation for Sarimax is similar to ARIMA, except that there is a n
 
 # Brainstorm 
 Divide into "predictible" and "non predictible" products / categories. Filter/exclude non-predictible ones.
-Find reasons for non-predictibility
-Which are most returned products? Which are warehouses with most returns?
+Find reasons for non-predictibility. <br>
+Which are most returned products? Which are warehouses with most returns?<br>
+Can adding economic factors improve forecasting?<br>
+Which warehouses/product categories have the best predictability rate?<br>
+
 
 
 
